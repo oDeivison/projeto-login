@@ -19,9 +19,11 @@ body, html{
 }
 
 main{
-    position: relative;
     height: 100vh;
     width: 100vw;
+
+    
+    
 }
 
 section#login{
@@ -90,11 +92,12 @@ div.campo > input{
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
+    margin-left: 44px;
     
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(-42px);
 }
 
 div.campo > input:focus-within{
@@ -139,4 +142,5 @@ form a.botao:hover{
 
 form > a.botao > span{
     font-size: 0.8em;
+    margin: 4px;
 }
